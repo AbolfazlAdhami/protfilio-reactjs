@@ -1,0 +1,63 @@
+.cotact {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  form {
+    display: flex;
+    width: 60%;
+    height: 60%;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #e84118;
+    padding: 3rem 2rem;
+    border-radius: 0.3rem;
+    .label-input {
+      font-size: 2rem;
+      color: #fff;
+    }
+    .input {
+      border: none;
+      outline: none;
+      padding: 0 2rem;
+      width: 50%;
+      height: 3rem;
+      background-color: #2f3640;
+      color: #fff;
+      font-size: 2rem;
+      font-weight: 600;
+      border-radius: 0.3rem;
+    }
+    .text-box {
+      width: 100%;
+      height: 15rem;
+      background-color: #2f3640;
+      border: none;
+      outline: none;
+      color: #fff;
+      font-size: 1.8rem;
+      font-weight: 600;
+      border-radius: 0.3rem;
+      resize: none;
+    }
+    .btn {
+      width: 20%;
+      height: 10%;
+      margin-top: 2rem;
+      background-color: #fff;
+      color: #2f3640;
+      font-size: 2rem;
+      border-radius: 0.5rem;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      transition: all 0.5s ease-in;
+      &:hover {
+        background-color: #2f3640;
+        color: #fff;
+      }
+    }
+  }
+}

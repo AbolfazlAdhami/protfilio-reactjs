@@ -1,0 +1,91 @@
+.abouteMe {
+  width: 90%;
+  height: 180%;
+  overflow: hidden;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  .bio {
+    width: 90%;
+    transition: all 0.5s linear;
+    cursor: default;
+    &:hover {
+      box-shadow: 0.2rem 0.2rem 3rem 0.5rem #fff;
+    }
+    padding: 2rem 1rem;
+    background-color: #00a8ff;
+    border-radius: 0.3rem;
+    .title {
+      font-size: 2.3rem;
+      font-weight: 700;
+      color: #fff;
+      padding: 1rem 0;
+    }
+    .description {
+      font-size: 2rem;
+      color: #eee;
+      letter-spacing: 0.1rem;
+      font-weight: 600;
+      line-height: 2.5rem;
+      text-align: justify;
+      padding: 0.5rem 2rem;
+      text-transform: capitalize;
+    }
+  }
+  .skills {
+    width: 90%;
+    margin-top: 5rem;
+    border-radius: 0.3rem;
+    background-color: #00a8ff;
+    padding: 2rem 2rem;
+    .title {
+      font-size: 2.3rem;
+      font-weight: 700;
+      color: #eee;
+      border-bottom: 0.2rem solid #eee;
+      padding: 1rem 0;
+
+      .bx {
+        margin-left: 0.5rem;
+      }
+    }
+  }
+  .item {
+    width: 100%;
+    display: flex;
+    padding: 1rem 0;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: default;
+    .name {
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: 0.1rem;
+      color: #2f3640;
+      margin-right: 1.5rem;
+    }
+    .count {
+      font-size: 2.1rem;
+      letter-spacing: 0.2rem;
+      font-weight: 600;
+      color: #eee;
+    }
+    .star {
+      font-size: 2.5rem;
+      color: #fff;
+      padding: 0 2rem;
+    }
+  }
+}
+@media only screen and (max-width: 935px) {
+  .abouteMe {
+    height: 250%;
+  }
+}
+@media only screen and (max-width: 435px) {
+  .abouteMe {
+    height: 280%;
+  }
+}
